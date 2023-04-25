@@ -1,5 +1,5 @@
 async-generator==1.10 ; python_version >= "3.8" and python_version < "4.0"
-attrs==22.2.0 ; python_version >= "3.8" and python_version < "4.0"
+attrs==20.2.0 ; python_version >= "3.8" and python_version < "4.0"
 black==22.12.0 ; python_version >= "3.8" and python_version < "4.0"
 certifi==2022.12.7 ; python_version >= "3.8" and python_version < "4.0"
 cffi==1.15.1 ; os_name == "nt" and implementation_name != "pypy" and python_version >= "3.8" and python_version < "4.0"
@@ -38,3 +38,6 @@ urllib3==1.26.14 ; python_version >= "3.8" and python_version < "4"
 urllib3[socks]==1.26.14 ; python_version >= "3.8" and python_version < "4.0"
 wsproto==1.2.0 ; python_version >= "3.8" and python_version < "4.0"
 apache-airflow==2.2.0
+apache-airflow[azure_blob_storage,azure_data_lake,azure_cosmos,azure_container_instances]
+charset-normalizer==3.1.0
+kiwipiepy
